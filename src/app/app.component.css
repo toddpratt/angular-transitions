@@ -1,0 +1,50 @@
+.menu {
+  width: 70px;
+  height: 100px;
+  left: 10px;
+  padding: 3px;
+  background: pink;
+  transition: width 0.3s, left 0.3s, background 0.5s;
+  position: fixed;
+  border-radius: 3px 10px 3px 6px;
+}
+
+.menu:hover {
+  width: 300px;
+  left: 20px;
+  background: lightblue;
+}
+
+.menu:hover .title {
+  transform: rotate(0deg);
+  top: 0px;
+}
+
+.expand {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out 0.2s;
+}
+
+.menu:hover .expand {
+  opacity: 1;
+}
+
+.title {
+  padding: 3px;
+}
+
+.menu:hover .title {
+  padding: 5px;
+}
+
+.a {
+  top: 10px;
+}
+
+.b {
+  top: 120px;
+}
+
+.c {
+  top: 230px;
+}
