@@ -6,7 +6,7 @@
   background: pink;
   transition: width 0.3s, left 0.3s, background 0.5s;
   position: fixed;
-  border-radius: 3px 10px 3px 6px;
+  border-radius: 3px 16px 3px 8px;
 }
 
 .menu:hover {
@@ -27,14 +27,6 @@
 
 .menu:hover .expand {
   opacity: 1;
-}
-
-.title {
-  padding: 3px;
-}
-
-.menu:hover .title {
-  padding: 5px;
 }
 
 .a {
